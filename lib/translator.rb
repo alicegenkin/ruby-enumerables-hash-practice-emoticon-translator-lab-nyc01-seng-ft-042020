@@ -6,13 +6,12 @@ require 'yaml'
   emoticons.each do |key,value|
     newEmoticons[key] = {:english: value[0], :japanese: value[1]}
   end
-end
- #.map { |e| [e, { }] }
+  #.map { |e| [e, { }] }
   # code goes here
-return newEmoticons
+  return newEmoticons
 end
 
-\
+
 def get_japanese_emoticon
   # code goes here
 end
